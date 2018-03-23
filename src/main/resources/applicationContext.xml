@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--每一个类型的游戏对象在这个配置文件中，都是一个bean节点-->
+    <!--容器一启动，这个对象就在容器里面，只要用代码的方式能拿到容器-->
+    <bean id="service" class="cn.spring.day01.MESGOD_Service"></bean>
+
+
+</beans>
